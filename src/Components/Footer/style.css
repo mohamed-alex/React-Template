@@ -1,0 +1,38 @@
+footer{
+    background-color: #444;
+}
+footer .social{
+    margin:auto;
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+footer .social h3{
+    color:white;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+footer .social .social-box{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 30%;
+    margin: auto;
+}
+footer .social .social-box li{
+    color:var(--main-color);
+    font-size: 24px;
+    cursor: pointer;
+}
+footer .social .social-box li:hover i{
+    transform: scale(1.5);
+    transition: .5s;
+}
+footer .copy{
+    text-align: center;
+    color:white;
+    padding: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
