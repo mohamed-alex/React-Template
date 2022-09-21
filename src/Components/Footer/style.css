@@ -25,9 +25,15 @@ footer .social .social-box li{
     font-size: 24px;
     cursor: pointer;
 }
+footer .social .social-box li i{
+    border-radius: 50%;
+    background: transparent;
+}
 footer .social .social-box li:hover i{
+    box-shadow: 0 0 10px yellow;
     transform: scale(1.5);
     transition: .5s;
+    
 }
 footer .copy{
     text-align: center;
